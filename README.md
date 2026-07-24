@@ -14,7 +14,9 @@ scoop install GenistarWynth/<app>
 | App | Description |
 | --- | --- |
 | [bettbox](bucket/bettbox.json) | Mihomo (Clash) GUI client |
-| [steam](bucket/steam.json) | Valve game platform client (requires admin terminal; installs to Program Files) |
+
+Only apps that scoop can genuinely manage (portable install, versioned, auto-updatable)
+live here. Self-updating ecosystem apps (Steam, etc.) are handled by winget instead.
 
 ## Auto-update
 
