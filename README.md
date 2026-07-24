@@ -14,6 +14,8 @@ scoop install GenistarWynth/<app>
 | App | Description |
 | --- | --- |
 | [bettbox](bucket/bettbox.json) | Mihomo (Clash) GUI client |
+| [ccline](bucket/ccline.json) | CCometixLine - Claude Code statusline tool (Rust) |
+| [clawd-on-desk](bucket/clawd-on-desk.json) | Pixel desktop pet that watches AI coding agents |
 
 Only apps that scoop can genuinely manage (portable install, versioned, auto-updatable)
 live here. Self-updating ecosystem apps (Steam, etc.) are handled by winget instead.
