@@ -1,25 +1,35 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "Clawd on Desk - pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents",
     "homepage": "https://github.com/rullerzhou-afk/clawd-on-desk",
     "license": "AGPL-3.0-only",
     "notes": "To keep scoop in charge of updates, disable 'auto update check' in the app's settings (its updater never downloads without your click, but the check bubble is on by default).",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v0.13.0/Clawd-on-Desk-Setup-0.13.0-x64.exe#/dl.7z",
-            "hash": "5352a8f8a4d9080116657795f0cd65bed00614675ea38fd09c3f2ebf9141ca48"
+            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v0.14.0/Clawd-on-Desk-Setup-0.14.0-x64.exe#/dl.7z",
+            "hash": "3733d49f918d5dccbdeaf00daf926938c8bc657f1bea81caf6bfb43de3cb4efb"
         },
         "arm64": {
-            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v0.13.0/Clawd-on-Desk-Setup-0.13.0-arm64.exe#/dl.7z",
-            "hash": "8f4e8c501c809ebb592e0dd5236cd7ca895ee8b14e43cc5e26bb8bfaee897b13"
+            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v0.14.0/Clawd-on-Desk-Setup-0.14.0-arm64.exe#/dl.7z",
+            "hash": "0e4d6527603a924394697ccb0648b09c146a5c39f8bd725c481d4bbca0177a42"
         }
     },
     "pre_install": [
         "Get-ChildItem \"$dir\\`$PLUGINSDIR\\app-*.7z\" | ForEach-Object { Expand-7zipArchive $_.FullName \"$dir\" }",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*.exe\" -Recurse -Force -ErrorAction SilentlyContinue"
     ],
-    "bin": [["Clawd on Desk.exe", "clawd"]],
-    "shortcuts": [["Clawd on Desk.exe", "Clawd on Desk"]],
+    "bin": [
+        [
+            "Clawd on Desk.exe",
+            "clawd"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Clawd on Desk.exe",
+            "Clawd on Desk"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/rullerzhou-afk/clawd-on-desk"
     },
