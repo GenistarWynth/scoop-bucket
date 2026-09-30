@@ -1,17 +1,17 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Clawd on Desk - pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents",
     "homepage": "https://github.com/rullerzhou-afk/clawd-on-desk",
     "license": "AGPL-3.0-only",
     "notes": "To keep scoop in charge of updates, disable 'auto update check' in the app's settings (its updater never downloads without your click, but the check bubble is on by default).",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.1.0/Clawd-on-Desk-Setup-1.1.0-x64.exe#/dl.7z",
-            "hash": "d836d5bf66c8f940b4f0bb1eefb17670e87f9e2e7094dbef3a0572f382cd91d0"
+            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.2.0/Clawd-on-Desk-Setup-1.2.0-x64.exe#/dl.7z",
+            "hash": "6e5ce388c8a3c10ea44390954905d39dfbe925f30a7ae0698eb92ed120739a44"
         },
         "arm64": {
-            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.1.0/Clawd-on-Desk-Setup-1.1.0-arm64.exe#/dl.7z",
-            "hash": "87753818d32c8616f303ddf4877fa7bed7edfbf6f8ea867b921e40f93b09f0ea"
+            "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.2.0/Clawd-on-Desk-Setup-1.2.0-arm64.exe#/dl.7z",
+            "hash": "75012ae83f55e273b1d29b5d321daee95aeb14fba529cf4139897744e1156b68"
         }
     },
     "pre_install": [
