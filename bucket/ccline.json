@@ -1,10 +1,10 @@
 {
-    "version": "1.1.2",
+    "version": "2.0.1",
     "description": "CCometixLine - high-performance Claude Code statusline tool written in Rust",
     "homepage": "https://github.com/Haleclipse/CCometixLine",
     "license": "Unknown",
-    "url": "https://github.com/Haleclipse/CCometixLine/releases/download/v1.1.2/ccline-windows-x64.zip",
-    "hash": "afb7eb504b5c6d266a9364797060d147e28ab25396a6457c512a2e7741951480",
+    "url": "https://github.com/Haleclipse/CCometixLine/releases/download/v2.0.1/ccline-windows-x64.zip",
+    "hash": "9e95185980a0268015e78d09c443ac848ef9753bb070c2ff43332b4340ad3741",
     "bin": "ccline.exe",
     "checkver": {
         "github": "https://github.com/Haleclipse/CCometixLine"
