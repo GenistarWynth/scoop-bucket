@@ -1,10 +1,10 @@
 {
-    "version": "1.19.7",
+    "version": "1.19.8",
     "description": "Bettbox - Mihomo (Clash) GUI client",
     "homepage": "https://github.com/appshubcc/Bettbox",
     "license": "GPL-3.0",
-    "url": "https://github.com/appshubcc/Bettbox/releases/download/v1.19.7/Bettbox-1.19.7-windows-amd64-setup.exe",
-    "hash": "77f0dda7678fb9ac70645309342646ef199cf4eb6f1811c3a46fb92049335220",
+    "url": "https://github.com/appshubcc/Bettbox/releases/download/v1.19.8/Bettbox-1.19.8-windows-amd64-setup.exe",
+    "hash": "fecd4b86a800e7ca5b75b4b7367a495d2933fc8c386a489c04ded0c8edded4ee",
     "innosetup": true,
     "bin": "bettbox.exe",
     "shortcuts": [
